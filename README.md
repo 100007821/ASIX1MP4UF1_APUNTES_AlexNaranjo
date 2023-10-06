@@ -43,3 +43,8 @@ Este texto esta en **_cursiva y negrita_**.
 |Col 3 es|Derecha|134€|
 |Estilo cebra|gris|blanco
 |Clase|ASIX1|M4|
+
+## CAPITULO 2: HTML
+La etiqueta p sirve para crear un parrafo p
+Para insertar una imagen se utiliza la etiqueta img y href poniendo en enlace de la imagen.
+Para insertar un salto de linea la etiqueta es br
