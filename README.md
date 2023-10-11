@@ -49,6 +49,7 @@ Este texto esta en **_cursiva y negrita_**.
 <p>Para insertar un salto de linea la etiqueta es br</p>
 <p>Todos los documentos HTML tienen dos bloques: Head y body; todo lo que se va a ver en la pagina sera escrito en el body</p>
 <h3>Creacion de listas</h3>
+A partir de aqui explico lo que es una lista
 <p>Para la creacion de listas utilizaremos las etiquetas li y ol </p>
 <p>Para crear un sub lista hay que añadir dentro de la etiquela li un ul </p>
 <ol>
@@ -66,3 +67,7 @@ Este texto esta en **_cursiva y negrita_**.
     <li>Segun elemento</li>
     <li>Tercer elemento</li>
 </ul>
+<br>
+Ejemplo de enlaces
+<hr>
+<a href="http://www.google.com" alt="Dirige a google" target="_blank"></a>
