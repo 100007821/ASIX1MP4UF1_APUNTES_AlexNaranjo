@@ -48,5 +48,9 @@ Este texto esta en **_cursiva y negrita_**.
 <p>Para insertar una imagen se utiliza la etiqueta img y href poniendo en enlace de la imagen.</p>
 <p>Para insertar un salto de linea la etiqueta es br</p>
 <p>Todos los documentos HTML tienen dos bloques: Head y body; todo lo que se va a ver en la pagina sera escrito en el body</p>
-<h1>Titulo Principal</h1>
+<h1>Creacion de listas</h1>
 
+<ol>
+<li>Primer elemento</li>
+<li>Segun elemento</li>
+<li>Tercer elemento</li>
