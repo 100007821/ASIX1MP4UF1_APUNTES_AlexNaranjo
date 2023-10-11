@@ -1,6 +1,5 @@
 # MP4UF1_APUNTES
 Documentacion de Apuntes de le teoria de la Unidad Formativa
-Repositorio de apuntes de M4
 
 ## Primer Capitulo: Markdown
 
@@ -45,6 +44,9 @@ Este texto esta en **_cursiva y negrita_**.
 |Clase|ASIX1|M4|
 
 ## CAPITULO 2: HTML
-La etiqueta p sirve para crear un parrafo p
-Para insertar una imagen se utiliza la etiqueta img y href poniendo en enlace de la imagen.
-Para insertar un salto de linea la etiqueta es br
+<p>La etiqueta p sirve para crear un parrafo </p>
+<p>Para insertar una imagen se utiliza la etiqueta img y href poniendo en enlace de la imagen.</p>
+<p>Para insertar un salto de linea la etiqueta es br</p>
+<p>Todos los documentos HTML tienen dos bloques: Head y body; todo lo que se va a ver en la pagina sera escrito en el body</p>
+<h1>Titulo Principal</h1>
+
