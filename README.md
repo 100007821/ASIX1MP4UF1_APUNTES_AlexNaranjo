@@ -48,9 +48,21 @@ Este texto esta en **_cursiva y negrita_**.
 <p>Para insertar una imagen se utiliza la etiqueta img y href poniendo en enlace de la imagen.</p>
 <p>Para insertar un salto de linea la etiqueta es br</p>
 <p>Todos los documentos HTML tienen dos bloques: Head y body; todo lo que se va a ver en la pagina sera escrito en el body</p>
-<h1>Creacion de listas</h1>
-
+<h3>Creacion de listas</h3>
+<p>Para la creacion de listas utilizaremos las etiquetas li y ol </p>
+<p>Para crear un sub lista hay que añadir dentro de la etiquela li un ul </p>
 <ol>
-<li>Primer elemento</li>
-<li>Segun elemento</li>
-<li>Tercer elemento</li>
+    <li>Primer elemento</li>
+    <ul>
+        <li>Primer elemento nivel 2</li>
+        <li>Primer elemento nivel 2</li>
+        <li>Primer elemento nivel 2</li>
+    </ul>
+    <li>Segun elemento</li>
+    <li>Tercer elemento</li>
+</ol>
+<ul>
+    <li>Primer elemento</li>
+    <li>Segun elemento</li>
+    <li>Tercer elemento</li>
+</ul>
