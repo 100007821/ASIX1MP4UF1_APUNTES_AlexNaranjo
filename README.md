@@ -71,3 +71,7 @@ A partir de aqui explico lo que es una lista
 Ejemplo de enlaces
 <hr>
 <a href="http://www.google.com" alt="Dirige a google" target="_blank"></a>
+
+ENLACES
+Para los enlaces hay que poner una ruta relativa que empiece por ../
+Si empieza por file no se podra ver en el pages 
