@@ -78,22 +78,40 @@ Si empieza por file no se podra ver en el pages
 Etiqueta <table>: Esta etiqueta se utiliza para definir la tabla en HTML. Debe envolver todo el contenido de la tabla.
 html
 
+GITHUB
+git clone:
+Propósito: Este comando se utiliza para clonar (copiar) un repositorio Git existente desde un servidor remoto, como GitHub, GitLab o Bitbucket, a tu computadora local.
+Uso: Debes proporcionar la URL del repositorio que deseas clonar, como se mencionó en la respuesta anterior.
+Ejemplo: git clone https://github.com/usuario/mi-repo.git
+
+git add:
+Propósito: Se utiliza para agregar cambios realizados en tus archivos locales al área de preparación (staging area) en Git. Esto indica a Git qué cambios deseas incluir en el próximo commit.
+Uso: Puedes especificar archivos individuales o patrones de archivos. Por ejemplo, para agregar todos los cambios, puedes usar git add ., y para agregar un archivo específico, puedes usar git add nombre-del-archivo.
+
+
+git commit:
+Propósito: Este comando se usa para crear un nuevo commit (instantánea de los cambios) con los archivos que has agregado previamente al área de preparación. Debes proporcionar un mensaje descriptivo para el commit que explique los cambios realizados.
+Uso: git commit -m "Mensaje descriptivo"
+Ejemplo: git commit -m "Agregado un nuevo formulario de contacto"
+
+git push:
+Propósito: Una vez que has hecho commits en tu repositorio local, puedes usar este comando para enviar esos commits al repositorio remoto en GitHub u otro servicio similar. Esto actualiza el repositorio remoto con tus cambios.
 
 TABLAS
-<table>
-  <!-- Aquí van las filas y celdas de la tabla -->
+table
+   Aquí van las filas y celdas de la tabla 
 </table>
-Etiqueta <tr>: Esta etiqueta se utiliza para definir una fila en la tabla. Cada fila contendrá una serie de celdas.
+Etiqueta tr: Esta etiqueta se utiliza para definir una fila en la tabla. Cada fila contendrá una serie de celdas.
 
 <table>
   <tr>
-    <!-- Aquí van las celdas de la primera fila -->
+   Aquí van las celdas de la primera fila 
   </tr>
   <tr>
-    <!-- Aquí van las celdas de la segunda fila -->
+    Aquí van las celdas de la segunda fila 
   </tr>
 </table>
-Etiqueta <th>: Esta etiqueta se utiliza para definir las celdas de encabezado de la tabla. Se utilizan típicamente en la primera fila o fila de encabezado de la tabla para etiquetar las columnas.
+Etiqueta th: Esta etiqueta se utiliza para definir las celdas de encabezado de la tabla. Se utilizan típicamente en la primera fila o fila de encabezado de la tabla para etiquetar las columnas.
 
 <table>
   <tr>
@@ -101,10 +119,10 @@ Etiqueta <th>: Esta etiqueta se utiliza para definir las celdas de encabezado de
     <th>Encabezado 2</th>
   </tr>
   <tr>
-    <!-- Aquí van las celdas de datos -->
+    Aquí van las celdas de datos 
   </tr>
 </table>
-Etiqueta <td>: Esta etiqueta se utiliza para definir las celdas de datos en la tabla. Se utilizan para mostrar la información real en la tabla.
+Etiqueta td: Esta etiqueta se utiliza para definir las celdas de datos en la tabla. Se utilizan para mostrar la información real en la tabla.
 
 <table>
   <tr>
@@ -133,3 +151,8 @@ Aquí tienes un ejemplo de una tabla HTML completa con varias filas y columnas:
   </tr>
 </table>
 Puedes personalizar la apariencia de las tablas utilizando CSS para definir estilos, bordes, colores y más. Las tablas son una forma efectiva de mostrar datos en una página web de manera organizada y estructurada.
+
+RUTAS
+Rutas relativas: Las rutas relativas especifican la ubicación de un recurso en relación con la ubicación del documento HTML actual. 
+Rutas absolutas: Las rutas absolutas especifican la ubicación de un recurso utilizando la dirección URL completa desde la raíz del sitio web.
+
