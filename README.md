@@ -75,27 +75,24 @@ Ejemplo de enlaces
 ENLACES
 Para los enlaces hay que poner una ruta relativa que empiece por ../
 Si empieza por file no se podra ver en el pages 
-Etiqueta <table>: Esta etiqueta se utiliza para definir la tabla en HTML. Debe envolver todo el contenido de la tabla.
-html
 
 GITHUB
-git clone:
+Git clone:
 Propósito: Este comando se utiliza para clonar (copiar) un repositorio Git existente desde un servidor remoto, como GitHub, GitLab o Bitbucket, a tu computadora local.
 Uso: Debes proporcionar la URL del repositorio que deseas clonar, como se mencionó en la respuesta anterior.
-Ejemplo: git clone https://github.com/usuario/mi-repo.git
 
-git add:
+
+Git add:
 Propósito: Se utiliza para agregar cambios realizados en tus archivos locales al área de preparación (staging area) en Git. Esto indica a Git qué cambios deseas incluir en el próximo commit.
 Uso: Puedes especificar archivos individuales o patrones de archivos. Por ejemplo, para agregar todos los cambios, puedes usar git add ., y para agregar un archivo específico, puedes usar git add nombre-del-archivo.
 
 
-git commit:
+Git commit:
 Propósito: Este comando se usa para crear un nuevo commit (instantánea de los cambios) con los archivos que has agregado previamente al área de preparación. Debes proporcionar un mensaje descriptivo para el commit que explique los cambios realizados.
-Uso: git commit -m "Mensaje descriptivo"
-Ejemplo: git commit -m "Agregado un nuevo formulario de contacto"
 
-git push:
+Git push:
 Propósito: Una vez que has hecho commits en tu repositorio local, puedes usar este comando para enviar esos commits al repositorio remoto en GitHub u otro servicio similar. Esto actualiza el repositorio remoto con tus cambios.
+
 
 TABLAS
 table
