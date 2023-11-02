@@ -75,3 +75,61 @@ Ejemplo de enlaces
 ENLACES
 Para los enlaces hay que poner una ruta relativa que empiece por ../
 Si empieza por file no se podra ver en el pages 
+Etiqueta <table>: Esta etiqueta se utiliza para definir la tabla en HTML. Debe envolver todo el contenido de la tabla.
+html
+
+
+TABLAS
+<table>
+  <!-- Aquí van las filas y celdas de la tabla -->
+</table>
+Etiqueta <tr>: Esta etiqueta se utiliza para definir una fila en la tabla. Cada fila contendrá una serie de celdas.
+
+<table>
+  <tr>
+    <!-- Aquí van las celdas de la primera fila -->
+  </tr>
+  <tr>
+    <!-- Aquí van las celdas de la segunda fila -->
+  </tr>
+</table>
+Etiqueta <th>: Esta etiqueta se utiliza para definir las celdas de encabezado de la tabla. Se utilizan típicamente en la primera fila o fila de encabezado de la tabla para etiquetar las columnas.
+
+<table>
+  <tr>
+    <th>Encabezado 1</th>
+    <th>Encabezado 2</th>
+  </tr>
+  <tr>
+    <!-- Aquí van las celdas de datos -->
+  </tr>
+</table>
+Etiqueta <td>: Esta etiqueta se utiliza para definir las celdas de datos en la tabla. Se utilizan para mostrar la información real en la tabla.
+
+<table>
+  <tr>
+    <th>Encabezado 1</th>
+    <th>Encabezado 2</th>
+  </tr>
+  <tr>
+    <td>Dato 1</td>
+    <td>Dato 2</td>
+  </tr>
+</table>
+Aquí tienes un ejemplo de una tabla HTML completa con varias filas y columnas:
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Edad</th>
+  </tr>
+  <tr>
+    <td>Juan</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>María</td>
+    <td>30</td>
+  </tr>
+</table>
+Puedes personalizar la apariencia de las tablas utilizando CSS para definir estilos, bordes, colores y más. Las tablas son una forma efectiva de mostrar datos en una página web de manera organizada y estructurada.
