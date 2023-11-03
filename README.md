@@ -1,6 +1,23 @@
 # MP4UF1_APUNTES
 Documentacion de Apuntes de le teoria de la Unidad Formativa
 
+## GITHUB
+Git clone:
+Propósito: Este comando se utiliza para clonar (copiar) un repositorio Git existente desde un servidor remoto, como GitHub, GitLab o Bitbucket, a tu computadora local.
+Uso: Debes proporcionar la URL del repositorio que deseas clonar, como se mencionó en la respuesta anterior.
+
+
+Git add:
+Propósito: Se utiliza para agregar cambios realizados en tus archivos locales al área de preparación (staging area) en Git. Esto indica a Git qué cambios deseas incluir en el próximo commit.
+Uso: Puedes especificar archivos individuales o patrones de archivos. Por ejemplo, para agregar todos los cambios, puedes usar git add ., y para agregar un archivo específico, puedes usar git add nombre-del-archivo.
+
+
+Git commit:
+Propósito: Este comando se usa para crear un nuevo commit (instantánea de los cambios) con los archivos que has agregado previamente al área de preparación. Debes proporcionar un mensaje descriptivo para el commit que explique los cambios realizados.
+
+Git push:
+Propósito: Una vez que has hecho commits en tu repositorio local, puedes usar este comando para enviar esos commits al repositorio remoto en GitHub u otro servicio similar. Esto actualiza el repositorio remoto con tus cambios.
+
 ## Primer Capitulo: Markdown
 
 Este texto esta en *cursiva*.
@@ -68,33 +85,17 @@ A partir de aqui explico lo que es una lista
     <li>Tercer elemento</li>
 </ul>
 <br>
-Ejemplo de enlaces
-<hr>
-<a href="http://www.google.com" alt="Dirige a google" target="_blank"></a>
 
-#ENLACES
+<hr>
+<a href="http://www.google.com" alt="Dirige a google" target="_blank">Esto es un enlace a Google</a>
+
+## ENLACES
 Para los enlaces hay que poner una ruta relativa que empiece por ../
 Si empieza por file no se podra ver en el pages 
 
-GITHUB
-Git clone:
-Propósito: Este comando se utiliza para clonar (copiar) un repositorio Git existente desde un servidor remoto, como GitHub, GitLab o Bitbucket, a tu computadora local.
-Uso: Debes proporcionar la URL del repositorio que deseas clonar, como se mencionó en la respuesta anterior.
 
 
-Git add:
-Propósito: Se utiliza para agregar cambios realizados en tus archivos locales al área de preparación (staging area) en Git. Esto indica a Git qué cambios deseas incluir en el próximo commit.
-Uso: Puedes especificar archivos individuales o patrones de archivos. Por ejemplo, para agregar todos los cambios, puedes usar git add ., y para agregar un archivo específico, puedes usar git add nombre-del-archivo.
-
-
-Git commit:
-Propósito: Este comando se usa para crear un nuevo commit (instantánea de los cambios) con los archivos que has agregado previamente al área de preparación. Debes proporcionar un mensaje descriptivo para el commit que explique los cambios realizados.
-
-Git push:
-Propósito: Una vez que has hecho commits en tu repositorio local, puedes usar este comando para enviar esos commits al repositorio remoto en GitHub u otro servicio similar. Esto actualiza el repositorio remoto con tus cambios.
-
-
-TABLAS
+## TABLAS
 table
    Aquí van las filas y celdas de la tabla 
 </table>
@@ -171,4 +172,4 @@ Border: Define las propiedades del borde de un elemento, como su grosor, estilo 
 
 Width y height: Estas etiquetas permiten definir el ancho y la altura de un elemento.
 
-<p>Esto es una <span style="color: blue;">frase en color azul</span> utilizando CSS en HTML.</p>
+
