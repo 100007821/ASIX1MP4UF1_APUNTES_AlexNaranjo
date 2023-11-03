@@ -72,7 +72,7 @@ Ejemplo de enlaces
 <hr>
 <a href="http://www.google.com" alt="Dirige a google" target="_blank"></a>
 
-ENLACES
+#ENLACES
 Para los enlaces hay que poner una ruta relativa que empiece por ../
 Si empieza por file no se podra ver en el pages 
 
@@ -147,9 +147,28 @@ Aquí tienes un ejemplo de una tabla HTML completa con varias filas y columnas:
     <td>30</td>
   </tr>
 </table>
-Puedes personalizar la apariencia de las tablas utilizando CSS para definir estilos, bordes, colores y más. Las tablas son una forma efectiva de mostrar datos en una página web de manera organizada y estructurada.
 
-RUTAS
-Rutas relativas: Las rutas relativas especifican la ubicación de un recurso en relación con la ubicación del documento HTML actual. 
-Rutas absolutas: Las rutas absolutas especifican la ubicación de un recurso utilizando la dirección URL completa desde la raíz del sitio web.
 
+## ESTILOS CSS
+Son un conjunto de reglas y propiedades que se utilizan para controlar la presentación y el aspecto visual de elementos HTML en una página web. Los estilos CSS permiten definir cómo se deben mostrar elementos como texto, imágenes, enlaces, márgenes, colores, tamaños de fuente, espaciado y otros aspectos visuales en una página web.
+
+## Etiquetas mas utilizadas
+Color: Esta etiqueta se utiliza para definir el color del texto de un elemento. Puedes especificar el color en diversos formatos, como nombres de colores, códigos hexadecimales o valores RGB.
+
+Font-family: Controla la fuente o tipo de letra que se aplicará al texto de un elemento.
+
+Font-size: Determina el tamaño de la fuente del texto en un elemento.
+
+Font-weight: Permite especificar el grosor o la negrita de la fuente.
+
+Text-align: Define la alineación del texto dentro de un elemento, como "left" (izquierda), "center" (centro) o "right" (derecha).
+
+Background-color: Establece el color de fondo de un elemento, como un div o una sección.
+
+Margin y padding: Estas etiquetas se utilizan para controlar los márgenes y el espacio interior (relleno) alrededor de un elemento, respectivamente. Puedes especificar valores para la parte superior, derecha, inferior y izquierda.
+
+Border: Define las propiedades del borde de un elemento, como su grosor, estilo y color.
+
+Width y height: Estas etiquetas permiten definir el ancho y la altura de un elemento.
+
+<p>Esto es una <span style="color: blue;">frase en color azul</span> utilizando CSS en HTML.</p>
