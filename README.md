@@ -152,6 +152,28 @@ Aquí tienes un ejemplo de una tabla HTML completa con varias filas y columnas:
 
 ## ESTILOS CSS
 Son un conjunto de reglas y propiedades que se utilizan para controlar la presentación y el aspecto visual de elementos HTML en una página web. Los estilos CSS permiten definir cómo se deben mostrar elementos como texto, imágenes, enlaces, márgenes, colores, tamaños de fuente, espaciado y otros aspectos visuales en una página web.
+El css es una hoja de estilo que sirve para darle estilo y diseño a uno o varios documentos html.
+
+Los estilos se pueden asociar de diferentes maneras a los elementos HTML dado que estos pueden estar ubicados en diferentes sitios como por ejemplo:
+
+En la cabecera del documento:
+Aquí lo que podemos ver es como todas las etiquetas <p> tendran un color rojo y estará el texto alineado al centro.
+
+          <!DOCTYPE html>
+          <html lang="ca">
+             <head>
+                <!-- ... →
+               <style> 
+                  p { 
+                    text-align:center; 
+                    color:red 
+                  } 
+                </style>
+             </head>
+             <body>
+
+En la propia etiqueta:
+Aquí lo que podemos ver es como dentro de la etiqueta <p> hemos añadido un atributo para dar estilo a esa etiqueta style="" poniendo dentro de las comillas el estilo que le queremos dar al texto.
 
 ## Etiquetas mas utilizadas
 Color: Esta etiqueta se utiliza para definir el color del texto de un elemento. Puedes especificar el color en diversos formatos, como nombres de colores, códigos hexadecimales o valores RGB.
