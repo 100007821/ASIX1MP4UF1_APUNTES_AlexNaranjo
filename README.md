@@ -194,4 +194,85 @@ Border: Define las propiedades del borde de un elemento, como su grosor, estilo 
 
 Width y height: Estas etiquetas permiten definir el ancho y la altura de un elemento.
 
+## Diseño responsive
+El diseño web responsive es una técnica de diseño web que busca la correcta visualización de una misma página en distintos dispositivos. Desde ordenadores de escritorio a móviles.
 
+Se trata de redimensionar y colocar los elementos de la web de forma que se adapten al ancho de cada dispositivo permitiendo una correcta visualización y una mejor experiencia de usuario.
+
+Comandos diseño responsive
+El primer comando a mostrar y uno de los más importantes es el display, que sirve para colocar los div como si fueran celdas o bloques.
+
+## Ejemplo.
+
+.flex {
+    display: flex;
+}
+Otro comando importante en un diseño responsive es el comando float, que sirve para colocar en un lado u otro del contenedor.
+
+## Ejemplo.
+
+.left {
+    float: left;
+}
+
+## Mediaquery
+Las mediaqueries permiten aplicar estilos CSS según el tipo de dispositivo, lo cúal va por el tamaño o resolución de la pantalla o del ancho del viewport del navegador.
+
+## Ejemplo.
+
+@media only screen and (max-width: 700px){
+    img{
+        width: 600px;
+    }
+    .column2{
+        width: 100%;
+    }
+}
+
+## DISEÑO RESPONSIVE
+Aqui tambien implementamos CSS, aunque aqui es mas para poner medidas, ocultar elementos...
+El diseño responsive, es mucho mas util de lo que parece, ya que hace que no importe desde donde ves la pagina web, ya que te ajusta automaticamente las medidas y la resolución. Cabe destacar, que en Diseño responsive, el uso de etiquetas como section y como div, es bastante frecuente.
+También es bastante frecuente usar comandos, como los que te voy a mostrar a continuación:
+
+FLOAT
+Este comando, se usa para alinear el elemento hacia la derecha o hacia la izquierda, obviamente sin modificar lo de alrededor, es decir que se ajusta automaticamente:
+
+#right{ float: right; }
+
+DISPLAY
+Este comando podemos decir que "transforma" los DIV en celdas:
+
+.flex{ display: flex; }
+
+BOX-SIZING
+Este comando se usa para modificar tanto borde y ancho y ajusta la medida al tamaño del contenido de la pagina:
+
+*{ box-sizing: border-box;
+}
+
+FLEX-DIRECTION
+Comando bastante util, y esque su funcionalidad es que mueve los elementos de la pagina, en base hacia donde movamos nosotros la pantalla
+
+.box { display: flex; flex-direction: column; }
+
+ALIGN
+Como podemos tener en aplicaciones como Word, aqui también tenemos, y es el:
+
+.flex{ align-items: center; }
+
+Su principal funcion, es alinear los elementos a donde tu le pidas
+
+JUSTIFY-CONTENT
+Otro comando que nos podemos encontrar en Word, y nada diferente, sirve para justificar el contenido de la pagina web, poniendole un start, es para que lo justifique al borde inicial:
+
+.box{ justify-content: start; }
+
+IMAGENES
+Esta parte es importante si queremos que las imagenes se ajusten automaticamente al ancho de la pagina y decirle que altura queremos que tenga:
+
+header{ height: 100vh; background-image: url(ruta donde tenemos al imagen); background-size: cover; background-position: center; background-attachment: fixed; }
+
+El background image, como su nombre dice, es para poner una imagen de fondo.
+El background size cover, es para que la imagen de fondo de ajuste automaticamente al tamaño
+El background position center tambien como su propio nombre indica, es para que el fondo esté centrado al contenedor
+El background attachment fixed, significa que la imagen de fondo, se queda fijada en la posicion, haciendo que por mas que nos movamos, el fondo se quedará fijo en su puesto
